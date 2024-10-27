@@ -1,12 +1,12 @@
 ---
-# For reference on model card metadata, see the spec: https://github.com/huggingface/hub-docs/blob/main/modelcard.md?plain=1
-# Doc / guide: https://huggingface.co/docs/hub/model-cards
+## For reference on model card metadata, see the spec: https://github.com/huggingface/hub-docs/blob/main/modelcard.md?plain=1
+## Doc / guide: https://huggingface.co/yahthant/yahthant
 {{ card_data }}
 ---
 
-# Model Card for {{ model_id | default("Model ID", true) }}
+Model Card for {{ yahthant | default("yahthant", true) }}
 
-<!-- Provide a quick summary of what the model is/does. -->
+yahthant
 
 {{ model_summary | default("", true) }}
 
@@ -75,12 +75,12 @@ Use the code below to get started with the model.
 {{ get_started_code | default("[More Information Needed]", true)}}
 
 ## Training Details
-
+sumanthk/PEFT_expo
 ### Training Data
-
+sumanthk/PEFT_expo
 <!-- This should link to a Dataset Card, perhaps with a short stub of information on what the training data is all about as well as documentation related to data pre-processing or additional filtering. -->
 
-{{ training_data | default("[More Information Needed]", true)}}
+{{ training_data | default("sumanthk/PEFT_expo", true)}}
 
 ### Training Procedure
 
